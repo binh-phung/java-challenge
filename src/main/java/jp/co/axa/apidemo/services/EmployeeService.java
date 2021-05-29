@@ -8,11 +8,11 @@ public interface EmployeeService {
 
     public List<Employee> retrieveEmployees();
 
-    public Employee getEmployee(Long employeeId);
+    public Employee getEmployee(long employeeId);
 
     public void saveEmployee(Employee employee);
 
-    public void deleteEmployee(Long employeeId);
+    public void deleteEmployee(long employeeId);
 
     public void updateEmployee(Employee employee);
 }
