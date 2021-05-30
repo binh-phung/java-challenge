@@ -28,7 +28,7 @@ public class Employee {
     @Getter
     @Setter
     @Column(name="EMPLOYEE_SALARY")
-    private Integer salary;
+    private int salary;
 
     @Getter
     @Setter
